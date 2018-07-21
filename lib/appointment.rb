@@ -3,7 +3,7 @@ class Appointment
   @@all = []
 
 #you must create the initialize methods in doctor and patient first - so that
-  def self.new(patient, doctor, date)
+  def initialize(patient, doctor, date)
     @patient = patient
     @doctor = doctor
     @date = date
