@@ -2,8 +2,8 @@ class Appointment
   attr_accessor :name, :doctor, :date, :patient
   @@all = []
 
-#you must create the initialize methods in doctor and patient first - so that 
-  def new(patient, doctor, date)
+#you must create the initialize methods in doctor and patient first - so that
+  def self.new(patient, doctor, date)
     @patient = patient
     @doctor = doctor
     @date = date
