@@ -22,6 +22,14 @@ class Patient
     end
   end
 
+#acts like a filter, allows you to iterate through results from appointments method (all patient's appointments)
+#then return all the doctors names who belong to those appointments
+  def doctors
+      appointments.map do |appt|
+        appt.doctor
+      end
+  end
+
 
 
 end
