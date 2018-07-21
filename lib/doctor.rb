@@ -9,7 +9,7 @@ class Doctor
 
   def self.all
     @@all
-    end
+  end
 
 end
 
